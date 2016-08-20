@@ -8,11 +8,15 @@ zuul:
     task1:
       path: /task1/**
       serviceId: task1
+      stripPrefix: true
 
     task2:
       path: /task2/**
       serviceId: task2
-      
+      stripPrefix: true
+
+
     task3:
       path: /task3/**
       serviceId: task3
+      stripPrefix: true
