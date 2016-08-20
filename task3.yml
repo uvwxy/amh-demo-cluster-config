@@ -1,0 +1,6 @@
+server:
+    port: 9003
+
+info:
+    foo: task3-bar
+    foo2: task3-bar2
