@@ -1,7 +1,18 @@
 server:
   port: 9000
+
 zuul:
+  ignoredServices: '*'
   routes:
-    task1: /task1/**
-    task2: /task2/**
-    task3: /task3/**
+
+    task1:
+      path: /task1/**
+      serviceId: task1
+
+    task2:
+      path: /task2/**
+      serviceId: task2
+      
+    task3:
+      path: /task3/**
+      serviceId: task3
