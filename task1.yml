@@ -5,11 +5,3 @@ server:
 info:
     foo: task1-bar
     foo2: task1-bar2
-
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-    defaultZone: http://127.0.0.1:8889/eureka/
