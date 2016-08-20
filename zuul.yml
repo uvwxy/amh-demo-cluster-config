@@ -1,15 +1,7 @@
 server:
   port: 9000
-
-
 zuul:
   routes:
-    path: /task1/**
-      service-id: task1
-      strip-prefix: false
-    path: /task2/**
-      service-id: task2
-      strip-prefix: false
-    path: /task3/**
-      service-id: task3
-      strip-prefix: false
+    task1: /task1/**
+    task2: /task2/**
+    task3: /task3/**
