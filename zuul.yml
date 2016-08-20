@@ -2,7 +2,6 @@ server:
   port: 9000
 
 zuul:
-  ignoredServices: '*'
   routes:
 
     task1:
