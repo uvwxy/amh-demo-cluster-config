@@ -15,7 +15,5 @@ task2.yml       # read by demo-cluster-service-task2
 ...
 ```
 
-## Links
-
 [1]: https://github.com/uvwxy/autumn-macro-hindrance
 [2]: https://cloud.spring.io/spring-cloud-config/
